@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    fill: #333;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #f0edf2;
+    max-width: 100%;
+    font: normal normal normal 10px "microsoft yahei", Arial, sans-serif;
+}
+
+.nav {
+    width: 1368px;
+    height: 40px;
+    width: 100%;
+    padding: 0 40px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.box1 {
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin-right: 30px;
+}
+
+.box2 {
+    width: 407px;
+    height: 40px;
+    float: left;
+    display: flex;
+    border-radius: 5px;
+}
+
+.box2 li {
+    width: 42px;
+    height: 40px;
+    margin-left: 20px;
+    float: left;
+    font-size: 16px;
+    color: #f9f9f9;
+    line-height: 40px;
+}
+
+.support a:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.support {
+    height: 40px;
+    margin: 0 50px;
+    float: right;
+    font-size: 20px;
+    color: #f9f9f9;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.support a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.board {
+    text-align: center;
+    vertical-align: middle;
+    height: 150px;
+    padding-top: 50px;
+    color: #FFF;
+    background-color: #333;
+}
+
+.board h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.characteristic {
+    height: 90px;
+    width: 100%;
+    height: 100%;
+    font: normal 400 44px "microsoft yahei", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: inherit;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ece8e1;
+    color: grey;
+}
+
+.box3 {
+    width: 1910px;
+    height: 750px;
+    background-color: #f5f5f5;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 li {
+    width: 470px;
+    height: 750px;
+    margin: 14px 40px;
+    background-color: #ffffff;
+    float: left;
+    font-weight: 400;
+}
+
+#footer {
+    text-align: center;
+    vertical-align: middle;
+    height: 150px;
+    padding-top: 50px;
+    color: #FFF;
+    background-color: #333;
+}
